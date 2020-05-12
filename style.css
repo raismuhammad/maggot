@@ -1,0 +1,80 @@
+/** Navigation Bar **/
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: #000000;
+}
+.navbar>ul>li>a:hover {
+    text-decoration: none;
+    color: #FEB0B0;
+}
+.navbar>ul>li>button {
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #ffffff;
+    background: #707070;
+}
+.navbar>ul>li>button:hover {
+    border-radius: 20px;
+    color: #000000;
+    font-weight: bold;
+    background: #C0C0C0;
+}
+/** Jumbotron **/
+.jumbotron {
+    background-image: url(https://cdn.akurat.co/images/uploads/images/akurat_20180414041131_890h1H.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.jumbotron>#jumbotron-content {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+#jumbotron-content>p {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/** Card **/
+#manggotinc-products {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.card-deck>.card{
+    height: 350px;
+}
+@media only screen and (max-width: 320px) {
+    .card-deck>.card{
+        height: 270px;
+    } 
+}
+@media only screen and (min-width: 375px) {
+    .card-deck>.card{
+        height: 320px;
+    } 
+}
+@media only screen and (min-width: 768px) {
+    .card-deck>.card{
+        height: 200px;
+    } 
+}
+@media only screen and (min-width: 922px) {
+    .card-deck>.card{
+        height: 260px;
+    }  
+}
+@media only screen and (min-width: 1200px) {
+    .card-deck>.card{
+        height: 300px;
+    }  
+}
+
+
+/** **/
+#bsf {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
